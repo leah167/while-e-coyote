@@ -5,10 +5,12 @@ let total = 0
 // condition
 
 while (num !== "done") {
-    // input numbers
     total = total + parseInt(num);
     num = prompt("> ");
-  
+//   if not using parseInt, 
+// let num2 = Number(num)
+// total = total + num2;
+// num = prompt ("> ");
 }
 
 console.log("Your total is: " + total + ".");

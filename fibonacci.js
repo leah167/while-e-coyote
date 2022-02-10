@@ -11,7 +11,8 @@ while (n > 0) {
     n2 = sum;
 
     n = n - 1;
-
+    console.log(n1)
+    console.log(n2)
+    
 }
 
-console.log(sum)
